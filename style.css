@@ -164,6 +164,20 @@ a.nav-link:hover {
   color: #d0e8f2;
 }
 
+.project-text {
+  color: #fcf8ec;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.project-text a{
+  color: #fcf8ec;
+  text-decoration: none;
+}
+
+.project-text a:hover {
+  color: #d0e8f2;
+}
 
 /* Footer Section */
 #footer .container-fluid {
