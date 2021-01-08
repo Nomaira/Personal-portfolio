@@ -1,0 +1,180 @@
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fcf8ec;
+  color: #456268;
+}
+
+h1 {
+  font-family: 'Parisienne', cursive;
+  font-size: 6rem;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+  font-size: 3rem;
+}
+
+h3 {
+  color: #79a3b1;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  padding: 70px 0 20px;
+}
+
+p {
+  line-height: 1.7;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+ /* Nav Bar */
+.navbar {
+  padding: 1% 15%;
+}
+
+.logo {
+  width: 50px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+a.nav-link {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #456268;
+}
+
+a.nav-link:hover {
+  color: #79a3b1;
+}
+
+.fa-bars {
+  font-size: 2rem;
+  color: #79a3b1;
+}
+
+
+/* header section */
+#header {
+  background-color: #d0e8f2;
+  padding: 11% 0;
+}
+
+
+/* About Section */
+.about-heading {
+  padding: 20px 0 30px;
+}
+
+.about-text {
+  width: 40%;
+  margin: auto;
+}
+
+
+/* Projects Section */
+#projects {
+  background-color: #456268;
+}
+
+.project-heading {
+  color: #fcf8ec;
+  padding: 20px 0 70px;
+}
+
+.card {
+  border: none;
+  position: relative;
+  /* width: 50%; */
+  margin: 30px 20px;
+}
+
+.card-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.card-img-overlay {
+  transition: .5s ease;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fcf8ec;
+}
+
+.card:hover .card-img {
+  opacity: 0.3;
+}
+
+.card:hover .card-img-overlay {
+  opacity: 1;
+}
+
+.card-content {
+  padding 50px;
+}
+
+.card-title {
+  color: #fcf8ec;
+}
+
+.card-text {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.card-list {
+  padding: 0 20px;
+}
+
+.btn {
+  background-color: #79a3b1;
+  color: #fcf8ec;
+  margin: 10px;
+  padding: 10px 20px;
+}
+
+.btn:hover {
+  background-color: #456268;
+  color: #d0e8f2;
+}
+
+
+/* Footer Section */
+#footer .container-fluid {
+  padding: 7% 15% 3%;
+}
+
+.social-icon {
+  margin: 30px 10px;
+  color: #456268;
+}
+
+.social-icon:hover {
+  color: #79a3b1;
+}
