@@ -184,6 +184,10 @@ a.nav-link:hover {
   padding: 7% 15% 3%;
 }
 
+footer p{
+  opacity: 0.5;
+}
+
 .social-icon {
   margin: 30px 10px;
   color: #456268;
