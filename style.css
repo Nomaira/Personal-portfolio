@@ -29,7 +29,7 @@ h4 {
   font-family: 'Oswald', sans-serif;
   font-size: 2rem;
   letter-spacing: 1px;
-  padding: 70px 0 20px;
+  padding: 70px 0 10px;
 }
 
 p {
@@ -155,7 +155,7 @@ a.nav-link:hover {
 .btn {
   background-color: #79a3b1;
   color: #fcf8ec;
-  margin: 50px 0 10px;
+  margin: 10px;
   padding: 10px 20px;
 }
 
@@ -179,6 +179,10 @@ a.nav-link:hover {
   color: #d0e8f2;
 }
 
+/* Contact Section */
+.contact-btn {
+  margin: 50px 0 0;
+}
 /* Footer Section */
 #footer .container-fluid {
   padding: 7% 15% 3%;
@@ -187,7 +191,6 @@ a.nav-link:hover {
 footer p{
   opacity: 0.5;
 }
-
 .social-icon {
   margin: 30px 10px;
   color: #456268;
