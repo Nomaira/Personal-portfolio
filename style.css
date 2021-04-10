@@ -76,7 +76,7 @@ a.nav-link:hover {
   background-color: #d0e8f2;
   height: 100vh;
   padding: 7% 0;
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 
 .intro {
@@ -90,10 +90,6 @@ a.nav-link:hover {
   width: 50%;
   height: auto;
   visibility: visible;
-}
-
-.header-img img {
-  width: 100%;
 }
 
 
@@ -238,6 +234,26 @@ footer p {
 @media screen and (max-width: 1050px) {
 
   .header-img {
-    width: 80%;
+    width: 70%;
+  }
+
+  .about-text {
+    width: 60%;
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .intro {
+    padding-top: 120px;
+  }
+
+  .header-img {
+    width: auto;
+  }
+
+  .about-text {
+    width: 60%;
+    font-size: 80%;
   }
 }
