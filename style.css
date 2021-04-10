@@ -6,8 +6,8 @@ body {
 }
 
 h1 {
-  font-family: 'Parisienne', cursive;
   font-size: 6rem;
+  font-weight: 700;
 }
 
 h2 {
@@ -41,13 +41,14 @@ p {
 }
 
 
- /* Nav Bar */
+/* Nav Bar */
 .navbar {
-  padding: 1% 15%;
+  background-color: #fcf8ec;
+  box-shadow: 0 8px 6px -10px rgb(146, 146, 146);
 }
 
 .logo {
-  width: 50px;
+  width: 40px;
 }
 
 .nav-item {
@@ -55,7 +56,7 @@ p {
 }
 
 a.nav-link {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
   color: #456268;
 }
@@ -73,11 +74,34 @@ a.nav-link:hover {
 /* header section */
 #header {
   background-color: #d0e8f2;
-  padding: 11% 0;
+  height: 100vh;
+  padding: 7% 0;
+  overflow: scroll;
+}
+
+.intro {
+  display: inline-block;
+  text-align: left;
+}
+
+.header-img {
+  display: inline-block;
+  padding-left: 50px;
+  width: 50%;
+  height: auto;
+  visibility: visible;
+}
+
+.header-img img {
+  width: 100%;
 }
 
 
 /* About Section */
+#about {
+  height: 100vh;
+}
+
 .about-heading {
   padding: 20px 0 30px;
 }
@@ -95,13 +119,12 @@ a.nav-link:hover {
 
 .project-heading {
   color: #fcf8ec;
-  padding: 20px 0 70px;
+  padding: 100px 0 50px;
 }
 
 .card {
   border: none;
   position: relative;
-  /* width: 50%; */
   margin: 30px 20px;
 }
 
@@ -170,7 +193,7 @@ a.nav-link:hover {
   font-weight: 300;
 }
 
-.project-text a{
+.project-text a {
   color: #fcf8ec;
   text-decoration: none;
 }
@@ -180,17 +203,29 @@ a.nav-link:hover {
 }
 
 /* Contact Section */
+#contact {
+  height: 100vh;
+  padding: 70px 0;
+}
+
 .contact-btn {
   margin: 50px 0 0;
 }
+
 /* Footer Section */
+#footer {
+  background-color: #fcf8ec;
+  box-shadow: 0 -8px 6px -10px rgb(146, 146, 146);
+}
+
 #footer .container-fluid {
   padding: 7% 15% 3%;
 }
 
-footer p{
+footer p {
   opacity: 0.5;
 }
+
 .social-icon {
   margin: 30px 10px;
   color: #456268;
@@ -198,4 +233,11 @@ footer p{
 
 .social-icon:hover {
   color: #79a3b1;
+}
+
+@media screen and (max-width: 1050px) {
+
+  .header-img {
+    width: 80%;
+  }
 }
