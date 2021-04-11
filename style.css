@@ -129,7 +129,7 @@ a.nav-link:hover {
   display: block;
   width: 100%;
   height: auto;
-  transition: .5s ease;
+  transition: all .5s ease;
   backface-visibility: hidden;
 }
 
@@ -152,12 +152,9 @@ a.nav-link:hover {
   opacity: 1;
 }
 
-.card-content {
-  padding 50px;
-}
-
 .card-title {
   color: #fcf8ec;
+  padding: 0;
 }
 
 .card-text {
@@ -174,7 +171,7 @@ a.nav-link:hover {
 .btn {
   background-color: #79a3b1;
   color: #fcf8ec;
-  margin: 10px;
+  margin: 0 10px;
   padding: 10px 20px;
 }
 
