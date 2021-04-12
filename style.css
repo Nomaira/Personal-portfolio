@@ -49,19 +49,20 @@ p {
 
 .logo {
   width: 40px;
+  margin-left: 20px;
 }
 
 .nav-item {
-  padding: 0 18px;
+  padding: 0 20px;
 }
 
-a.nav-link {
+.nav-link {
   font-size: 1rem;
   font-weight: 500;
   color: #456268;
 }
 
-a.nav-link:hover {
+.nav-link:hover {
   color: #79a3b1;
 }
 
@@ -70,26 +71,45 @@ a.nav-link:hover {
   color: #79a3b1;
 }
 
-
-/* header section */
-#header {
-  background-color: #d0e8f2;
+/* Hero Section */
+.hero {
   height: 100vh;
-  padding: 7% 0;
-  /* overflow: scroll; */
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .intro {
-  display: inline-block;
+  align-self: center;
+  justify-content: center;
   text-align: left;
+  grid-column: 1 / 2;
 }
 
-.header-img {
-  display: inline-block;
-  padding-left: 50px;
-  width: 50%;
-  height: auto;
-  visibility: visible;
+.hero-img {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 85%;
+  height: 80%;
+  grid-column: 2 / 3;
+}
+
+.cta-btn {
+  border: none;
+  border-radius: 10px;
+  background-color: #d0e8f2;
+  color: rgb(70, 70, 70);
+  padding: 10px 20px;
+  margin-top: 30px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.cta-btn:hover {
+  background-color: rgb(70, 70, 70);
+  color: #d0e8f2;
+  text-decoration: none;
 }
 
 
