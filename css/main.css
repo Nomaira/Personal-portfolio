@@ -313,6 +313,10 @@ footer p {
     margin-right: auto;
 }
 
+.data {
+    color: #21609B;
+}
+
 .reading {
     padding-bottom: 10%;
 }
