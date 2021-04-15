@@ -37,7 +37,7 @@
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="projects.html">Projects</a>
           </li>
           <li class="nav-item">
@@ -48,130 +48,170 @@
       </div>
     </nav>
 
-    <!-- Projects Section -->
-    <section id="projects">
-      <div class="container-fluid">
-        <h2 class="project-heading">My Projects</h2>
+    <section class="container-fluid">
+      <div class="select">
+        <a class="cta-btn select-btn" href="#development">Development</a>
+        <a class="cta-btn select-btn" href="#design">UI Design</a>
+        <a class="cta-btn select-btn" href="#data">Data Science</a>
+      </div>
 
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="card text-center">
-              <img src="Images/simon-game.png" class="card-img" alt="">
-              <div class="card-img-overlay">
-                <div class="card-content">
-                  <h3 class="card-title">Simon Game</h3>
-                  <ul class="card-text">
-                    <li class="card-list">HTML</li>
-                    <li class="card-list">CSS</li>
-                    <li class="card-list">JS</li>
-                    <li class="card-list">jQuery</li>
-                  </ul>
-                  <a href="https://nomaira.github.io/Simon-Game/" class="btn" target="_blank">See the Site</a>
-                  <a href="https://github.com/Nomaira/Simon-Game" class="btn" target="_blank">See the Code</a>
-                </div>
-              </div>
-            </div>
+      <div class="select-img">
+        <img class="select-img-project" src="Images/goals.svg" alt="about-me">
+      </div>
+
+      <!-- Developer Portfolio -->
+      <div id="development" class="project-container gap">
+        <h2 class="project-heading">Developer.</h2>
+
+        <div onclick="window.open('https://github.com/Nomaira/music-player', '_blank')" class="feature project-card">
+          <div class="feature-text">
+            <h3 class="spaced-lettering">Web App</h3>
+            <h2>Music Player</h2>
           </div>
-
-          <div class="col-lg-6">
-            <div class="card text-center">
-              <img src="Images/the-dice-game.png" class="card-img" alt="">
-              <div class="card-img-overlay">
-                <div class="card-content">
-                  <h3 class="card-title">The Dice Game</h3>
-                  <ul class="card-text">
-                    <li class="card-list">HTML</li>
-                    <li class="card-list">CSS</li>
-                    <li class="card-list">JS</li>
-                  </ul>
-                  <a href="https://nomaira.github.io/the-dice-game/" class="btn" target="_blank">See the Site</a>
-                  <a href="https://github.com/Nomaira/the-dice-game" class="btn" target="_blank">See the Code</a>
-                </div>
-              </div>
-            </div>
+          <div class="feature-card">
+            <img class="feature-card-img" src="Images/music-player.png" alt="">
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="card text-center">
-              <img src="Images/drum-kit.png" class="card-img" alt="">
-              <div class="card-img-overlay">
-                <div class="card-content">
-                  <h3 class="card-title">The Drums</h3>
-                  <ul class="card-text">
-                    <li class="card-list">HTML</li>
-                    <li class="card-list">CSS</li>
-                    <li class="card-list">JS</li>
-                  </ul>
-                  <a href="https://nomaira.github.io/Drum-Kit/" class="btn" target="_blank">See the Site</a>
-                  <a href="https://github.com/Nomaira/Drum-Kit" class="btn" target="_blank">See the Code</a>
-                </div>
-              </div>
-            </div>
+        <div onclick="window.open('https://nomaira.github.io/todo-list/', '_blank')" class="feature project-card">
+          <div class="feature-text">
+            <h3 class="spaced-lettering">Web App</h3>
+            <h2>todo-list</h2>
           </div>
-
-          <div class="col-lg-6">
-            <div class="card text-center">
-              <img src="Images/todo-list.png" class="card-img" alt="">
-              <div class="card-img-overlay">
-                <div class="card-content">
-                  <h3 class="card-title">ToDo List</h3>
-                  <ul class="card-text">
-                    <li class="card-list">HTML</li>
-                    <li class="card-list">CSS</li>
-                    <li class="card-list">JS</li>
-                  </ul>
-                  <a href="https://nomaira.github.io/todo-list/" class="btn" target="_blank">See the Site</a>
-                  <a href="https://github.com/Nomaira/todo-list" class="btn" target="_blank">See the Code</a>
-                </div>
-              </div>
-            </div>
+          <div class="feature-card">
+            <img class="feature-card-img" src="Images/todo-list.png" alt="">
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="card text-center">
-              <img src="Images/the-gang.png" class="card-img" alt="">
-              <div class="card-img-overlay">
-                <div class="card-content">
-                  <h3 class="card-title">The Gang</h3>
-                  <ul class="card-text">
-                    <li class="card-list">HTML</li>
-                    <li class="card-list">CSS</li>
-                    <li class="card-list">JS</li>
-                  </ul>
-                  <a href="https://nomaira.github.io/The-Gang/" class="btn" target="_blank">See the Site</a>
-                  <a href="https://github.com/Nomaira/The-Gang" class="btn" target="_blank">See the Code</a>
-                </div>
-              </div>
-            </div>
+        <div onclick="window.open('https://nomaira.github.io/The-Gang/', '_blank')" class="feature project-card">
+          <div class="feature-text">
+            <h3 class="spaced-lettering">Website</h3>
+            <h2>The Gang</h2>
           </div>
-
-          <div class="col-lg-6">
-            <div class="card text-center">
-              <img src="Images/tindog.png" class="card-img" alt="">
-              <div class="card-img-overlay">
-                <div class="card-content">
-                  <h3 class="card-title">TinDog</h3>
-                  <ul class="card-text">
-                    <li class="card-list">HTML</li>
-                    <li class="card-list">CSS</li>
-                    <li class="card-list">Bootstrap</li>
-                    <li class="card-list">JS</li>
-                  </ul>
-                  <a href="https://nomaira.github.io/tindog/" class="btn" target="_blank">See the Site</a>
-                  <a href="https://github.com/Nomaira/tindog" class="btn" target="_blank">See the Code</a>
-                </div>
-              </div>
-            </div>
+          <div class="feature-card">
+            <img class="feature-card-img" src="Images/the-gang.png" alt="">
           </div>
         </div>
 
+        <div onclick="window.open('https://nomaira.github.io/Simon-Game/', '_blank')" class="feature project-card">
+          <div class="feature-text">
+            <h3 class="spaced-lettering">Game</h3>
+            <h2>Simon Game</h2>
+          </div>
+          <div class="feature-card">
+            <img class="feature-card-img" src="Images/simon-game.png" alt="">
+          </div>
+        </div>
 
-        <h4 class="project-text">Check out more of my projects on <a href="https://github.com/Nomaira" target="_blank">GitHub</a> and <a href="https://codepen.io/nomaira" target="_blank">CodePen</a>.</h4>
+        <div onclick="window.open('https://nomaira.github.io/Drum-Kit/', '_blank')" class="feature project-card">
+          <div class="feature-text">
+            <h3 class="spaced-lettering">Web App</h3>
+            <h2>The Drums</h2>
+          </div>
+          <div class="feature-card">
+            <img class="feature-card-img" src="Images/drum-kit.png" alt="">
+          </div>
+        </div>
 
+        <div onclick="window.open('https://nomaira.github.io/the-dice-game/', '_blank')" class="feature project-card">
+          <div class="feature-text">
+            <h3 class="spaced-lettering">Game</h3>
+            <h2>The Dice Game</h2>
+          </div>
+          <div class="feature-card">
+            <img class="feature-card-img" src="Images/the-dice-game.png" alt="">
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- Design Porfolio -->
+      <div id="design" class="project-container gap">
+        <h2 class="project-heading">Design.</h2>
+
+        <div onclick="window.open('https://dribbble.com/shots/15074372-Daily-UI-001-Sign-Up', '_blank')" class="feature project-card">
+          <div class="feature-text">
+            <h3 class="spaced-lettering">Sign Up Form</h3>
+            <h2>Brownie Subscription</h2>
+            <!-- <p>A react project designed using Figma and developed with 
+              <a href="https://create-react-app.dev/" target="_blank">Create React App</a> to set up the web app. The music was provided by 
+              <a href="https://chillhop.com/" target="_blank">Chillhop Music</a> in order to create a library.</p> -->
+          </div>
+          <div class="feature-card">
+            <img class="feature-card-img" src="Images/brownie-sub-sign-up.png" alt="">
+          </div>
+        </div>
+
+        <div onclick="window.open('https://dribbble.com/Nomaira', '_blank')" class="feature project-card">
+          <div class="feature-text">
+            <h3 class="spaced-lettering">Portfolio</h3>
+            <h2>Photography</h2>
+            <!-- <p>A react project designed using Figma and developed with 
+              <a href="https://create-react-app.dev/" target="_blank">Create React App</a> to set up the web app. The music was provided by 
+              <a href="https://chillhop.com/" target="_blank">Chillhop Music</a> in order to create a library.</p> -->
+          </div>
+          <div class="feature-card">
+            <img class="feature-card-img" src="Images/ZFN.png" alt="">
+          </div>
+        </div>
+
+        <div onclick="window.open('https://dribbble.com/shots/15343228-Daily-UI-005-App-Icon', '_blank')" class="feature project-card">
+          <div class="feature-text">
+            <h3 class="spaced-lettering">Icon</h3>
+            <h2>Art App</h2>
+            <!-- <p>A react project designed using Figma and developed with 
+              <a href="https://create-react-app.dev/" target="_blank">Create React App</a> to set up the web app. The music was provided by 
+              <a href="https://chillhop.com/" target="_blank">Chillhop Music</a> in order to create a library.</p> -->
+          </div>
+          <div class="feature-card">
+            <img class="feature-card-img" src="Images/app-icon.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <!-- Data Science Portfolio -->
+      <div id="data" class="project-container gap">
+        <h2 class="project-heading">Data.</h2>
+
+        <div onclick="window.open('https://github.com/Nomaira/ds-linear-regression-project/blob/main/linear-regression-model-project.ipynb', '_blank')" class="feature project-card">
+          <div class="feature-text">
+            <h3 class="spaced-lettering">Machine Learning</h3>
+            <h2>Train and Test Data</h2>
+            <!-- <p>A react project designed using Figma and developed with 
+              <a href="https://create-react-app.dev/" target="_blank">Create React App</a> to set up the web app. The music was provided by 
+              <a href="https://chillhop.com/" target="_blank">Chillhop Music</a> in order to create a library.</p> -->
+          </div>
+          <div class="feature-card">
+            <img class="feature-card-img" src="Images/percentage-score.png" alt="">
+          </div>
+        </div>
+
+        <div onclick="window.open('https://github.com/Nomaira/ds-iris-dataset-visualisation/blob/main/Iris-visualisation.ipynb', '_blank')" class="feature project-card">
+          <div class="feature-text">
+            <h3 class="spaced-lettering">Data Visualisation</h3>
+            <h2>Iris Dataset</h2>
+            <!-- <p>A react project designed using Figma and developed with 
+              <a href="https://create-react-app.dev/" target="_blank">Create React App</a> to set up the web app. The music was provided by 
+              <a href="https://chillhop.com/" target="_blank">Chillhop Music</a> in order to create a library.</p> -->
+          </div>
+          <div class="feature-card">
+            <img class="feature-card-img" src="Images/iris-visualization.png" alt="">
+          </div>
+        </div>
+
+        <div onclick="window.open('https://github.com/Nomaira/ds-tensorflow-project/blob/main/TensorFlow-project.ipynb', '_blank')" class="feature project-card">
+          <div class="feature-text">
+            <h3 class="spaced-lettering">Machine Learning</h3>
+            <h2>TensorFlow Project</h2>
+            <!-- <p>A react project designed using Figma and developed with 
+              <a href="https://create-react-app.dev/" target="_blank">Create React App</a> to set up the web app. The music was provided by 
+              <a href="https://chillhop.com/" target="_blank">Chillhop Music</a> in order to create a library.</p> -->
+          </div>
+          <div class="feature-card">
+            <img class="feature-card-img" src="Images/learning-curves.png" alt="">
+          </div>
+        </div>
       </div>
     </section>
 
