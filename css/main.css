@@ -52,7 +52,7 @@ a:hover {
 
 .logo {
     width: 40px;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .navbar-toggler-icon {
@@ -178,7 +178,7 @@ a:hover {
     display: grid;
     grid-gap: 50px;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: 20%;
+    margin: 20% 0;
     text-align: center;
 }
 
@@ -214,7 +214,7 @@ a:hover {
 
 /* Contact Section */
 .contact {
-    margin-top: 20%;
+    /* margin-top: 20%; */
     background-color: #d0e8f2;
     box-shadow: 0 0 10px -6px rgb(146, 146, 146);
     padding: 10%;
