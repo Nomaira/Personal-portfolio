@@ -175,40 +175,37 @@ a:hover {
 
 /* services section  */
 .services {
-    display: grid;
-    grid-gap: 50px;
-    grid-template-columns: repeat(3, 1fr);
     margin: 20% 0;
     text-align: center;
 }
 
 .services-card {
+    width: 100%;
+    height: 90%;
     background-color: #d0e8f2;
     box-shadow: 0 0 10px -6px rgb(146, 146, 146);
     border-radius: 20px;
-    padding: 20% 15%;
+    padding: 20%;
     cursor: pointer;
+
 }
 
 .services-icon {
-    width: 40%;
-    height: 40px;
+    width: 50%;
+    height: 80px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .services-title {
     color: #456268;
-    font-size: 1.5vw;
     padding: 15% 0 10%;
     margin: 0;
 }
 
 .services-description {
-    font-size: 1vw;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0;
 }
 
 
