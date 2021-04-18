@@ -43,6 +43,25 @@ a:hover {
     padding: 10% 15%;
 }
 
+.cta-btn {
+    border: none;
+    border-radius: 10px;
+    background-color: #d0e8f2;
+    color: #707070;
+    padding: 10px 20px;
+    margin-top: 30px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 0 10px -6px rgb(146, 146, 146);
+}
+
+.cta-btn:hover {
+    background-color: #79a3b1;
+    color: #fcf8ec;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
 
 /* navbar */
 .navbar {
@@ -111,26 +130,6 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.cta-btn {
-    border: none;
-    border-radius: 10px;
-    background-color: #d0e8f2;
-    color: #707070;
-    padding: 10px 20px;
-    margin-top: 30px;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    box-shadow: 0 0 10px -6px rgb(146, 146, 146);
-}
-
-.cta-btn:hover {
-    background-color: #79a3b1;
-    color: #fcf8ec;
-    text-decoration: none;
-    transition: all 0.5s ease-in-out;
 }
 
 /* Feature project */
@@ -262,7 +261,7 @@ footer p {
 .select {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .select-btn {
