@@ -210,7 +210,6 @@ a:hover {
 
 /* Contact Section */
 .contact {
-    /* margin-top: 20%; */
     background-color: #d0e8f2;
     box-shadow: 0 0 10px -6px rgb(146, 146, 146);
     padding: 10%;
@@ -386,3 +385,13 @@ footer p {
     width: 80%;
     border-radius: 20px;
 }
+
+/* CONTACT PAGE */
+.contact-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:) {}
