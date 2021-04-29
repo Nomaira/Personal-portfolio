@@ -394,4 +394,8 @@ footer p {
     align-items: center;
 }
 
-@media screen and (max-width:) {}
+@media screen and (max-width: 672px) {
+    .container-fluid {
+        padding: 5%;
+    }
+}
